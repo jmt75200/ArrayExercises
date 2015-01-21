@@ -42,10 +42,10 @@ var devRoles = ["UI developer", "Javascript developer", "UX Designer", "Backend 
 var mythicalAnimals = ["unicorn", "centaur", "griffins", "dragons" ];
 
 // Create an array of drinks.
-var tipsy = ["vodka", "wisky", "tequila", "rum"];
+var drinks = ["vodka", "wisky", "tequila", "rum"];
 
 // Create an array of emoticons.
-var feels = [":)", ":{", ";>", "<3"];
+var emoticons = [":)", ":{", ";>", "<3"];
 
 // Create an array with the letters of the word 'array'.
 var lettersArray = ["A", "r", "r", "a", "y"];
@@ -58,21 +58,69 @@ var lettersArray = ["A", "r", "r", "a", "y"];
 
 // Create an array of Objects that represent Famous People.
 // Each Object should have a Name, Age, and their Profession as properties
+var soFamous = [{
+  name : "Chino Moreno",
+  age : "42",
+  profession : "Lead Singer" 
+},
+{
+  name : "Jennifer Aniston",
+  age: "47",
+  profession : "Actress"
+},
+{
+  name : "Donald Glover",
+  age : "29",
+  profession : "Comedian"
+
+}
+];
 
 
 // Create an array of songs you'd like Jon to add to the playlist of music 
 // to listen to in class.  Each song should be an object with at least 
 // a title and an artist.
+var playlist = [{
+  artist : "Alice in Chains",
+  song : "Nutshell"
+},
+{
+  artist : "Hybrid",
+  song : "Blackout"
+}
+];
 
 
 // Create an array of functions. Define any functions you want, they can 
 // be anything! But make sure the syntax is correct :D
 
+var funcTions = [
+  function inside (){ console.log("inside, function 1");},
+  function inside2 () { console.log("inside, function 2");},
+  function inside3 () { console.log (playlist.song);}
+
+];
 
 // Create an array of Sublime shortcuts.  Each item should have a keystroke 
 // combination and a textual description of what the key combination does. 
 // You can find Sublime Text Shortcuts by traversing the Sublime Text's GUI
 // e.g. File Menu options.
 
-
+var sublimeShorts = [{
+  shortcuts : "ctrl + shft + p",
+  shortFor : "Command Pallete"
+},
+{
+  shortcuts : "ctrl + s",
+  shortFor : "Save"
+},
+{
+  shortcuts : "ctrl + z",
+  shortFor : "undo"
+},
+{
+  shortcuts : "ctrl + f",
+  shortFor : "find"
+}
+];
 
