@@ -94,10 +94,27 @@ var playlist = [{
 // Create an array of functions. Define any functions you want, they can 
 // be anything! But make sure the syntax is correct :D
 
-var funcTions = [
-  function inside (){ console.log("inside, function 1");},
-  function inside2 () { console.log("inside, function 2");},
-  function inside3 () { console.log (playlist.song);}
+var funcTions = [{
+  reverseString : function (){
+    var str = "Yeay";
+    var myArr = str.split("");
+
+    return myArr.reverse().join("");
+  }
+},
+{
+  spliceString : function (){
+    var str = "Yeay";
+    var newLetter = "y";
+
+    var myArr = str.split("");
+    var popLastChar = myArr.pop();
+    myArr.unshift(popLastChar);
+    myArr.splice(-1, 0, newLetter);
+
+    return myArr.join("");
+  }
+}
 
 ];
 
